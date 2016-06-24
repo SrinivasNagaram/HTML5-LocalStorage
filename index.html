@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5 LocalStorage with jQuery</title> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+   
+  <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="app-navbar" class="nav-bar primary">
+				jQuery LocalStorage
+			</div>
+		</div> 
+	</div>
+	<div class="row">
+			<nav class="col-md-12">
+					<div role="tabpanel" class="tab-panel" id="navbar-customizer">
+						<div class="radio radio-primary">
+							<input type="radio" name="navbar-theme" data-theme="primary">
+							<label for="navbar-primary-theme" class="text-primary">Primary</label>
+						</div>
+						<div class="radio radio-success">
+							<input type="radio" name="navbar-theme" data-theme="success">
+							<label for="navbar-success-theme" class="text-success">Success</label>
+						</div>
+						<div class="radio radio-danger">
+							<input type="radio" name="navbar-theme" data-theme="danger">
+							<label for="navbar-danger-theme" class="text-danger">Danger</label>
+						</div>
+						<div class="radio radio-warning">
+							<input type="radio" name="navbar-theme" data-theme="warning">
+							<label for="navbar-warning-theme" class="text-warning">Orange</label>
+						</div>
+						<div class="radio radio-pink m-b-md">
+							<input type="radio" name="navbar-theme" data-theme="pink">
+							<label for="navbar-pink-theme" class="text-pink">Pink</label>
+						</div>
+						<div class="radio radio-purple m-b-md">
+							<input type="radio" name="navbar-theme" data-theme="purple">
+							<label for="navbar-purple-theme" class="text-purple">Purple</label>
+						</div>
+						<div class="radio radio-inverse m-b-md">
+							<input type="radio" name="navbar-theme" data-theme="inverse">
+							<label for="navbar-inverse-theme" class="text-inverse">Inverse</label>
+						</div>
+						<div class="radio radio-dark">
+							<input type="radio" name="navbar-theme" data-theme="dark">
+							<label for="navbar-dark-theme" class="text-dark">Dark</label>
+						</div> 
+						<div>
+						<hr>
+							<button id="navbar-reset-btn" class="btn btn-primary">Reset</button>
+						</div>
+					</div>		
+				</nav>
+			</div>
+		</div> 
+		
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-storage-api/1.9.1/jquery.storageapi.min.js"></script>
+
+</body>
+</html>
