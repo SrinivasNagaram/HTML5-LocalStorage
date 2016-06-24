@@ -83,7 +83,7 @@
 	
 	$('#navbar-reset-btn').on('click', function(e){
 		app.settings.navbar = app.defaults.navbar;
-		app.storage.remove();
+		app.storage.remove(app.storage);
 		app.saveSettings(); 
 	});
 	
