@@ -1,0 +1,23 @@
+.primary{ background-color: #188ae2; }
+.success{ background-color: #10c469; }
+.info{ background-color: #35b8e0; }
+.warning{ background-color: #f9c851; }
+.danger{ background-color: #ff5b5b; }
+.pink{ background-color: #5b69bc; }
+.purple{ background-color: #ff8acc; }
+.inverse{ background-color: #3b3e47; }
+.dark{ background-color: #282828; } 
+
+.nav-bar { 
+	text-align: center; 
+	height: 100px;
+	line-height: 100px;
+	color: #ffffff;
+} 
+.radio {
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+.tab-panel {
+	margin-top: 20px; 
+}
